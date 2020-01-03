@@ -1,6 +1,10 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Loading/scripts/Loading.gd" type="Script" id=1]
 
 [node name="Loading" type="Node2D"]
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_lock_": true
 }
+[connection signal="tree_entered" from="." to="." method="_on_Loading_tree_entered"]
