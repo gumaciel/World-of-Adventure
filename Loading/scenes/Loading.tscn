@@ -7,4 +7,3 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_lock_": true
 }
-[connection signal="tree_entered" from="." to="." method="_on_Loading_tree_entered"]

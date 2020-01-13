@@ -15,7 +15,3 @@ func _ready():
 #func _process(delta):
 #	pass
 
-
-func _on_Loading_tree_entered():
-	get_tree().change_scene("res://Maps/scenes/Map1.tscn")
-	pass # Replace with function body.

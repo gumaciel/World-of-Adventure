@@ -20,6 +20,11 @@ run/main_scene="res://Loading/scenes/Loading.tscn"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1036
+window/size/height=778
+
 [rendering]
 
 quality/driver/driver_name="GLES2"
